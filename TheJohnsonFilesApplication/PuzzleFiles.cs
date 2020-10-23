@@ -7,7 +7,11 @@ namespace TheJohnsonFilesApplication
 {
     class PuzzleFiles
     {
-        
+        public static void WriteManuscript()
+        {
+            string manuscript = System.IO.File.ReadAllText(@"the_manuscript.txt");
+            WriteFileToDesktop("The_Manuscript.txt", manuscript);
+        }
 
         public static void WriteFileToDesktop(string filename, string content)
         {
