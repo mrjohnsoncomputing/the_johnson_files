@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MY+FPYt8rgpO3HZ8zGiAnH3lnLrFxkh7WVU8SIqA6ORxNwqtxwmOzpmhpU3/3cx2vvTeCe86/VYOiVEiEjqPcw==",
+  "dgSpecHash": "Gawe7rx6PlYxhbC2u8uQh3c0jPF/ISGzaH86ICcfwXfinoHbH2LTSPOGQ0t6ig304o/vuCKKtk2YPJBFYedXGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dale\\source\\repos\\the_johnson_files\\TheJohnsonFilesApplication\\TheJohnsonFilesApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dale\\.nuget\\packages\\google.apis\\1.49.0\\google.apis.1.49.0.nupkg.sha512",
+    "C:\\Users\\Dale\\.nuget\\packages\\google.apis.auth\\1.49.0\\google.apis.auth.1.49.0.nupkg.sha512",
+    "C:\\Users\\Dale\\.nuget\\packages\\google.apis.core\\1.49.0\\google.apis.core.1.49.0.nupkg.sha512",
+    "C:\\Users\\Dale\\.nuget\\packages\\google.apis.sheets.v4\\1.49.0.2111\\google.apis.sheets.v4.1.49.0.2111.nupkg.sha512",
+    "C:\\Users\\Dale\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
