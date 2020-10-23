@@ -20,3 +20,4 @@ C:\Users\Dale\source\repos\the_johnson_files\TheJohnsonFilesApplication\bin\Debu
 C:\Users\Dale\source\repos\the_johnson_files\TheJohnsonFilesApplication\obj\Debug\netcoreapp3.1\TheJohnsonFilesApplication.csproj.CoreCompileInputs.cache
 C:\Users\Dale\source\repos\the_johnson_files\TheJohnsonFilesApplication\obj\Debug\netcoreapp3.1\TheJohnsonFilesApplication.csproj.CopyComplete
 C:\Users\Dale\source\repos\the_johnson_files\TheJohnsonFilesApplication\bin\Debug\netcoreapp3.1\the_manuscript.txt
+C:\Users\Dale\source\repos\the_johnson_files\TheJohnsonFilesApplication\bin\Debug\netcoreapp3.1\mrjohnsonascii.txt

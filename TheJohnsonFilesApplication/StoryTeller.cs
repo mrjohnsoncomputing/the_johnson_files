@@ -8,8 +8,13 @@ namespace TheJohnsonFilesApplication
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
             Setup();
+
+            // Testing Area //
+            
+
+            //Console.WriteLine("Hello World!");
+            
             Introduction();
             Student student = CreateStudent();
             Speech("Mr Johnson", $"Quick {student.FirstName}! We don't have much time!", 2000);
@@ -123,7 +128,7 @@ namespace TheJohnsonFilesApplication
         static void Setup()
         {
             //Console.SetWindowPosition(0, 0);
-            Console.SetWindowSize(Console.LargestWindowWidth/2, Console.LargestWindowHeight/2);
+            Console.SetWindowSize(Console.LargestWindowWidth/2, Console.LargestWindowHeight);
             
         }
 
@@ -131,6 +136,8 @@ namespace TheJohnsonFilesApplication
         {
 
             TitleAnimation();
+
+            PrintImage("mrjohnsonascii.txt");
 
             // Login PIN
             Warning("Top Secret");
@@ -168,7 +175,7 @@ namespace TheJohnsonFilesApplication
                     Console.Clear();
                 }
             }
-            PrintBlanks(5);
+            PrintBlanks(2);
         }
 
         static void LoadingBar(string reason, char symbol = '#', int percentage = 25, int time = 100)
@@ -306,6 +313,20 @@ namespace TheJohnsonFilesApplication
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine($"'{message}'");
             Thread.Sleep(time);
+        }
+
+        static void PrintImage(string imagename)
+        {
+            string image = System.IO.File.ReadAllText(@$"{imagename}");
+            int width = 101;
+            for (int i = 0; i < image.Length-width; i+=width)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    Console.Write(image[i + j]);
+                    Thread.Sleep(1);
+                }
+            }
         }
     }
 }
