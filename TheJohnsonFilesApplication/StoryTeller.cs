@@ -14,6 +14,10 @@ namespace TheJohnsonFilesApplication
             Student student = CreateStudent();
             Speech("Mr Johnson", $"Quick {student.FirstName}! We don't have much time!", 2000);
             DeliverManuscript();
+            string letter = student.Puzzles["Puzzle1"]["Seed"];
+            Speech("Mr Johnson", $"Okay {student.Name}, now's your time to shine. I need you to analyse my manscript and tell me how many times the letter {letter} occurs in my manuscript.", 6000);
+            Speech("Mr Johnson", $"That's ALL of them, so all of the little {letter.ToLower()}'s and all of the BIG {letter.ToUpper()}'s! ");
+            Console.ReadKey();
         }
 
         static Student CreateStudent()
